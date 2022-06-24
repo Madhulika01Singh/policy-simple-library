@@ -4,4 +4,5 @@ module "resources" {
 
 policy "resource_limit" {
   source = "./resource_limit.sentinel"
+  enforcement_level = "advisory"
 }
